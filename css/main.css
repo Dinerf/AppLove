@@ -69,5 +69,134 @@ a:hover {
   text-transform: uppercase;
 }
 
-/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+
+
+
+* {
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0%;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  margin-left: 9%;
+  font-weight: bold;
+  padding: 2% 0%;
+}
+.menuitem {
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  margin: 1% 9% 0% 0%;
+}
+.main {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  height: 515px;
+}
+.mainContent {
+  text-align: center;
+}
+h2.mainContent {
+  font-size: 20px;
+  padding-top: 80px;
+}
+h1.mainContent {
+  font-size: 50px;
+  margin-bottom: 0%;
+}
+p.mainContent {
+  margin-top: 0%;
+}
+div.mainContent {
+  margin: 80px;
+}
+#viewButton {
+  background-color: #2ECC71;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+}
+.servicesSection {
+  background-color: #F17C72;
+  color: white;
+  text-align: center;
+  height: 700px;
+  padding: 0% 80px;
+  display: inline-block;
+}
+.servicesSection h2 {
+  padding-top: 5%;
+  font-size: 32px;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 8%;
+}
+.serviceItem {
+  width: 30%;
+  text-align: center;
+}
+.serviceItem img {
+  width: 60%;
+}
+.serviceItem h5 {
+  margin-top: 5%;
+}
+#servicetext {
+  display: block;
+  width: 100%;
+}
+h5, h6 {
+  margin: 0%;
+}
+.work {
+  height: max-content;
+  text-align: center;
+  padding-top: 0%;
+}
+.work h2 {
+  padding-top: 4%;
+  font-size: 32px;
+}
+.work h4 {
+  margin-bottom: 4%;
+}
+.workImage {
+  width: 70%;  
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2% 9%;
+}
+.products img {
+  width: 28%;
+  height: 28%;
+}
+.products span {
+  display: block;
+  height: fit-content;
+  width: 28%;
+  margin: 2% 0% 5%;
+  font-weight: bold;
+  color: #424242;
+}
+.footer {
+  text-align: center;
+  line-height: 70px;
+  background-color: #373B47;
+  color: white;
+}
